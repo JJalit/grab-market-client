@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  line-height: normal;
 }
 
 html,
@@ -22,6 +23,7 @@ body,
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 #header-area img {

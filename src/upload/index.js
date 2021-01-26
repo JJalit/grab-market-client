@@ -1,6 +1,5 @@
 import { Form, Divider, Input, InputNumber, Button } from "antd";
 import "./index.css";
-import { ForkOutlined } from "@ant-design/icons";
 function UploadPage() {
   const onSubmit = (values) => {
     console.log(values);
