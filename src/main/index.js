@@ -6,8 +6,9 @@ import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 import { API_URL } from "../config/constants.js";
 import { Carousel } from "antd";
+import "dayjs/locale/ko";
 dayjs.extend(relativeTime);
-
+dayjs.locale("ko");
 function MainPage() {
   const [products, setProducts] = React.useState([]);
   const [banners, setBanners] = React.useState([]);
